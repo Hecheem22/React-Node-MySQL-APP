@@ -1,0 +1,72 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+
+
+
+body {
+  background: #f1f1f1;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  background: #fff;
+}
+header .container {
+  max-width: 1800px;
+  margin: 0 auto;
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header a {
+  color: #333;
+  text-decoration: none;
+  font-size: larger;
+}
+
+
+
+label, input {
+  display: block;
+}
+input {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+form button {
+  background: var(--primary);
+  border: 0;
+  color: #fff;
+  padding: 10px;
+  font-family: "Poppins";
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.button.addBtn {
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  cursor: pointer;
+  float: right;
+}
+
+.button.btn {
+
+  margin-left: 25%;
+  margin-top: 3%;
+  background-color: #19e2d5;
+
+
+
+  
+}
